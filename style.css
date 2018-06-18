@@ -10,6 +10,8 @@ body, html{
 body{
 	background: #ffffff;
 	color: #222222;
+	font-family: arial;
+	font-color: black:
 }
 
 div#viewport {
@@ -32,6 +34,7 @@ ul {
 	float:right;
 }
 li{
+	color: black;
 	display: inline;
 	float: left;
 	margin-left:10px;
@@ -44,10 +47,12 @@ li a {
 	padding: 8px;
 	text-align: center;
 	text-decoration: none;
+	color: black;
 }
 
 a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 
@@ -56,7 +61,7 @@ a:hover {
 }
 .logo{
 	margin-top: 10%;
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	width:250px;
 	margin-left:40%;
 	margin-right: 50%;
@@ -97,16 +102,65 @@ input[type=text]:focus {
 }
 .bta {
 	float: left;
-	margin-left:425px;
-	width:200px;
-	height:50px;
+	margin-left:500px;
+	width:126px;
+	height:36px;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 16px;
+	text-align: center;
 }
 .btb {
 	float:right;
-	margin-right:425px;
-	width:200px;
-	height:50px;
+	margin-right:500px;
+	width:126px;
+	height:36px;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 16px;
+	text-align: center;
+	transform-style: preserve-3d;
+	content: "I\'m Feeling Lucky";
+	
+	
 }
+
+.bta:hover{
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+  color:#222;
+}
+
+.btb:hover{
+
+ background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+  color:#222;
+overflow-x: auto;
+  
+  }
+  
+
+	
+
+
+
 #footer{
  position:absolute;
    bottom:0;
